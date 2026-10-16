@@ -47,10 +47,10 @@ Create a project workspace folder on your machine and clone both repositories:
     cd MihiraStores-Project
 
     # Clone the Backend repository
-    git clone <BACKEND_REPOSITORY_URL> Backend
+    git clone `<BACKEND_REPOSITORY_URL>`
 
     # Clone the Frontend repository
-    git clone <FRONTEND_REPOSITORY_URL> Frontend
+    git clone `<FRONTEND_REPOSITORY_URL>` 
 
 
 Step 2: Start the Backend API (.NET 10)
@@ -111,7 +111,7 @@ To run the automated xUnit tests validating the core business rules:
 2. Execute the test runner:
     dotnet test
 
-
+or make sure to run the MIhiraStores.Test lefthand side of the run button (green triangle button) 
 --------------------------------------------------------------------------------
 5. BUSINESS RULES ENFORCED
 --------------------------------------------------------------------------------
