@@ -28,9 +28,11 @@ This organization hosts the decoupled system in two dedicated repositories:
 --------------------------------------------------------------------------------
 
 Ensure you have the following installed on your machine:
-* .NET SDK (version 8.0 or 9.0)
+* .NET SDK (version 10 ) Run on visual studio 2026
 * Node.js (version 18.x or later) and npm
 * Git
+
+
 
 
 --------------------------------------------------------------------------------
@@ -51,7 +53,7 @@ Create a project workspace folder on your machine and clone both repositories:
     git clone <FRONTEND_REPOSITORY_URL> Frontend
 
 
-Step 2: Start the Backend API (.NET 9)
+Step 2: Start the Backend API (.NET 10)
 --------------------------------------
 The backend uses SQLite with Entity Framework Core. On startup, it automatically
 generates the database schema (mihira.db) and seeds initial branches, products,
@@ -66,7 +68,10 @@ and stocks.
 3. Run the API:
     dotnet run
 
-4. The server runs at:
+   make sure to run the RavingoTest lefthand side of the run button (green triangle button) 
+
+
+5. The server runs at:
     API Endpoint          : https://localhost:7102 (or http://localhost:5194)
     Swagger Documentation : https://localhost:7102/swagger/index.html
 
